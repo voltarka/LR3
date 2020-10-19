@@ -10,7 +10,7 @@ for(int i=0; i<10;i++){
     std::cout<< arr[i]<<"  ";
 }
 std::cout<< std::endl;
-n= arr[2]-arr[5]-arr[8];
+n= arr[8]-arr[2]-arr[5];
 std::cout<< "Результат разности 9-го 3-го и 6-го элементов равен  "<< n<< std::endl;
     return 0;
 }

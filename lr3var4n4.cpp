@@ -35,7 +35,7 @@ int main(){
     std::string word = "Can you can a can as a canner can can a can?";
     std::string d ="";
     std::cout<< "Слово - ";
-    std::cin >> d;
+    std::getline (std::cin,d);
     std::cout<< std::endl;
     for (int i = 0; i<=word.size()-3; i++){
         if ((word.substr(i,4) == "can ") || (word.substr(i,4) == "Can ") || (word.substr(i,4) == "can?")) {
